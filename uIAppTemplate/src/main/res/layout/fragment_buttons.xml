@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!--
+    PLEASE NOTE: Since Button class extends TextView class
+    and just defines another style, we almost never use Buttons
+    for real UI buttons, but we use TextViews with predefined style.
+    This way we can use our RobotoTextView or FontelloTextView
+     to define Roboto typeface
+    to button text, but also achieve button stlye.
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           	style="@style/RippleStyle" >
+
+            <com.csform.android.uiapptemplate.font.RobotoTextView
+                style="@style/ButtonStyle.RaisedFull"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:text="@string/raised" />
+        </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+        <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.csform.android.uiapptemplate.font.RobotoTextView
+                style="@style/ButtonStyle.RaisedEmpty"
+                android:layout_width="112dp"
+                android:layout_height="wrap_content"
+                android:text="@string/flat" />
+        </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+        <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <com.csform.android.uiapptemplate.font.FontelloTextView
+                style="@style/ButtonStyle.RaisedFull"
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:text="@string/drawer_icon_blog" />
+        </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <com.csform.android.uiapptemplate.font.RobotoTextView
+            style="@style/ButtonStyle.RaisedFull"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="@string/raised" />
+
+        <com.csform.android.uiapptemplate.font.RobotoTextView
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="@string/flat" />
+
+        <com.csform.android.uiapptemplate.font.FontelloTextView
+            style="@style/ButtonStyle.RaisedFull"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:text="@string/drawer_icon_blog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <com.csform.android.uiapptemplate.font.RobotoTextView
+            style="@style/ButtonStyle.RaisedFull"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="@string/raised" />
+
+        <com.csform.android.uiapptemplate.font.RobotoTextView
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="@string/flat" />
+
+        <com.csform.android.uiapptemplate.font.FontelloTextView
+            style="@style/ButtonStyle.RaisedFull"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:text="@string/drawer_icon_blog" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color_500"
+        android:gravity="center_horizontal" >
+
+        <com.csform.android.uiapptemplate.font.RobotoTextView
+            style="@style/ButtonStyle.RaisedFull"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="@string/raised" />
+
+        <com.csform.android.uiapptemplate.font.RobotoTextView
+            style="@style/ButtonStyle.RaisedEmpty"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:enabled="true"
+            android:text="@string/flat" />
+
+        <com.csform.android.uiapptemplate.font.FontelloTextView
+            style="@style/ButtonStyle.RaisedFull"
+            android:layout_width="56dp"
+            android:layout_height="wrap_content"
+            android:text="@string/drawer_icon_blog" />
+    </LinearLayout>
+
+</LinearLayout>

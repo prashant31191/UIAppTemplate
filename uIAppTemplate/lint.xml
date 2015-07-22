@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="ContentDescription" severity="ignore">
+        <ignore path="res/layout/fragment_paralax.xml" />
+        <ignore path="res/layout/list_item_categories_two_columns.xml" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/fragment_check_and_radio_boxes.xml" />
+    </issue>
+    <issue id="SpUsage">
+        <ignore path="res/layout/list_item_default.xml" />
+    </issue>
+    <issue id="TextFields">
+        <ignore path="res/layout/view_floating_labeled_edit_text.xml" />
+    </issue>
+</lint>

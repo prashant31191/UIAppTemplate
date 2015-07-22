@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.csform.android.uiapptemplate.view.AnimatedExpandableListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
+<!-- 
+    android:divider="@color/main_color_grey_500"
+    android:childDivider="@android:color/transparent"
+    android:dividerHeight="1dp" -->

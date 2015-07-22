@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.csform.android.uiapptemplate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <com.csform.android.uiapptemplate.font.FontelloTextView
+        style="@style/TextViewAppearance.Title1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="@string/fontello_heart_full"
+        android:textColor="@color/main_color_grey_700"
+        android:textSize="16sp" />
+
+    <com.csform.android.uiapptemplate.font.RobotoTextView
+        android:id="@+id/textTitle"
+        style="@style/TextViewAppearance.Title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_vertical"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:textColor="@color/main_color_grey_700"
+        android:textSize="16sp"
+        app:typeface="robotoRegular" />
+
+</LinearLayout>

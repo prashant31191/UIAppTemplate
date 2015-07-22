@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.csform.android.uiapptemplate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+        style="@style/RippleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        app:rippleDelayClick="false"
+        app:rippleInAdapter="true" >
+
+        <com.csform.android.uiapptemplate.font.RobotoTextView
+            android:id="@+id/title"
+            style="@style/TextViewAppearance.Caption1"
+            android:layout_gravity="center_vertical"
+            android:textSize="16sp"
+            app:typeface="robotoRegular"
+            android:paddingLeft="46dp"
+            android:textColor="@color/main_color_grey_800" />
+    </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+</LinearLayout>

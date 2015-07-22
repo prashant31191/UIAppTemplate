@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UIAppTemplate</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <!-- Navigation Drawer icon codes -->
+    <string name="drawer_icon_splash_screens">&#xe82c;</string>
+    <string name="drawer_icon_progress_bars">&#xe84c;</string>
+    <!-- <string name="drawer_icon_buttons">&#xe802;</string> -->
+    <string name="drawer_icon_shape_image_views">&#xe82b;</string>
+    <string name="drawer_icon_text_views">&#xe852;</string>
+    <string name="drawer_icon_search_bars">&#xe84f;</string>
+    <string name="drawer_icon_login_page">&#xe842;</string>
+    <!-- <string name="drawer_icon_audio_player">&#xe807;</string> -->
+    <!-- <string name="drawer_icon_video_player">&#xe808;</string> -->
+    <string name="drawer_icon_image_gallery">&#xe83c;</string>
+    <string name="drawer_icon_check_and_radio_buttons">&#xe833;</string>
+    <!-- <string name="drawer_icon_calendars">&#xe811;</string> -->
+    <string name="drawer_icon_left_menus">&#xe83f;</string>
+    <string name="drawer_icon_list_views">&#xe841;</string>
+    <string name="drawer_icon_parallax">&#xe846;</string>
+    <!-- <string name="drawer_icon_dialogs">&#xe803;</string> -->
+    
+    <string name="drawer_icon_linked_in">&#xe80e;</string>
+    <string name="drawer_icon_blog">&#xe81e;</string>
+    <string name="drawer_icon_git_hub">&#xe808;</string>
+    <string name="drawer_icon_instagram">&#xe80c;</string>
+    
+    <!-- Navigation Drawer icon titles -->
+    <string name="drawer_title_splash_screens">Splash Screens</string>
+    <string name="drawer_title_progress_bars">Progress Bars</string>
+    <!-- <string name="drawer_title_buttons">Buttons</string> -->
+    <string name="drawer_title_shape_image_views">Shape Image Views</string>
+    <string name="drawer_title_text_views">Text Views</string>
+    <string name="drawer_title_search_bars">Search Bars</string>
+    <string name="drawer_title_login_page">Login Pages</string>
+    <!-- <string name="drawer_title_audio_player">Audio Player</string> -->
+    <!-- <string name="drawer_title_video_player">Video Player</string> -->
+    <string name="drawer_title_image_gallery">Image Gallery</string>
+    <string name="drawer_title_check_and_radio_buttons">Check Boxes</string>
+    <!-- <string name="drawer_title_calendars">Calendars</string> -->
+    <string name="drawer_title_left_menus">Left Menus</string>
+    <string name="drawer_title_list_views">List Views</string>
+    <string name="drawer_title_parallax">Parallax</string>
+    <!-- <string name="drawer_title_dialogs">Dialogs</string> -->
+    
+    <string name="drawer_title_linked_in">LinkedIn</string>
+    <string name="drawer_title_blog">Blog</string>
+    <string name="drawer_title_git_hub">GitHub</string>
+    <string name="drawer_title_instagram">Instagram</string>
+    
+    <!-- Fontello icons -->
+    <string name="fontello_logo">&#xe802;</string>
+    <string name="fontello_search">&#xe816;</string>
+    <string name="fontello_x_mark">&#xe81f;</string>
+    <string name="fontello_x_mark_masked">&#xe806;</string>
+    <string name="fontello_microfon">&#xe80f;</string>
+    <string name="fontello_user">&#xe81b;</string>
+    <string name="fontello_password">&#xe823;</string>
+    <string name="fontello_upload">&#xe81a;</string>
+    <string name="fontello_play">&#xe813;</string>
+    <string name="fontello_heart_empty">&#xe80b;</string>
+    <string name="fontello_heart_full">&#xe80a;</string>
+    <string name="fontello_drag_and_drop">&#xe821;</string>
+    
+    <!-- Content description strings -->
+    <string name="cd_background_image">background image</string>
+    <string name="cd_main_image">main image</string>
+    
+    <!-- TextView related strings -->
+    <string name="typography1">Typography I</string>
+    <string name="typography2">Typography II</string>
+    <string name="typography3">Typography III</string>
+    <string name="material_design">Material design</string>
+    <string name="material_design_variation">Material design variation</string>
+    <string name="all_set_by_google_instructions_of_material_design">All set by Google instructions of Material Design</string>
+    <string name="lorem_ipsum_long">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="lorem_ipsum_short">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+    <string name="thiner_and_lighter_version">Thiner and lighter version of Material design</string>
+    <string name="thicker_and_darker_version">Thicker and darker version of Material design</string>
+    
+    <string name="number_of_images">%d image(s)</string>
+    
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="welcome">Welcome!</string>
+    
+    <string name="undo_deletion">UNDO DELETION</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="done">DONE</string>
+    <string name="error">ERROR</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="skip">SKIP</string>
+    <string name="raised">RAISED</string>
+    <string name="flat">FLAT</string>
+
+</resources>

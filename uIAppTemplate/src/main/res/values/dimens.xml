@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="drawer_width">300dp</dimen>
+    <dimen name="ken_burns_header">250dp</dimen>
+    <dimen name="cpb_stroke_width">4dp</dimen>
+
+</resources>

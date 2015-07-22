@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <!-- Progress Wheel styles -->
+    <style name="ProgressBarStyle">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="barLength">20dp</item>
+        <item name="barWidth">6dp</item>
+        <item name="contourColor">@android:color/transparent</item>
+        <item name="contourSize">0dp</item>
+        <item name="delayMillis">0</item>
+        <item name="radius">0dp</item>
+        <item name="rimWidth">6dp</item>
+        <item name="spinSpeed">1dp</item>
+        <item name="textColor">@android:color/white</item>
+        <item name="textSize">12sp</item>
+    </style>
+
+    <style name="ProgressBarStyle.Main" parent="@style/ProgressBarStyle">
+        <item name="barColor">@color/main_color_500</item>
+        <item name="circleColor">@color/main_color_200</item>
+        <item name="rimColor">@color/main_color_300</item>
+    </style>
+
+    <style name="ProgressBarStyle.Reverse" parent="@style/ProgressBarStyle">
+        <item name="barColor">@color/main_color_200</item>
+        <item name="circleColor">@android:color/transparent</item>
+        <item name="rimColor">@color/main_color_500</item>
+    </style>
+
+    <style name="ProgressBarStyle.Accent" parent="@style/ProgressBarStyle">
+        <item name="barColor">@color/main_color_500</item>
+        <item name="circleColor">@color/main_color_A100</item>
+        <item name="rimColor">@color/main_color_A400</item>
+    </style>
+
+    <style name="ProgressBarStyle.Big" parent="@style/ProgressBarStyle">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="barColor">@color/main_color_500</item>
+        <item name="circleColor">@color/main_color_A400</item>
+        <item name="rimColor">@color/main_color_700</item>
+        <item name="textSize" tools:ignore="SpUsage">24dp</item>
+    </style>
+    
+    <!-- Circular Progress Bar styles (from package ~.view.cpb) -->
+    <style name="CircularProgressBarStyle">
+        <item name="android:layout_width">112sp</item>
+        <item name="android:layout_height">36sp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="cpb_textIdle">@string/download</item>
+        <item name="cpb_textComplete">@string/done</item>
+        <item name="cpb_textError">@string/error</item>
+        <item name="android:textSize">14sp</item>
+        <item name="cpb_colorProgress">@android:color/transparent</item>
+        <item name="cpb_colorIndicator">@color/main_color_500</item>
+        <item name="cpb_colorIndicatorBackground">@color/main_color_500_20_percent</item>
+    </style>
+
+    <style name="CircularProgressBarStyle.Empty" parent="@style/CircularProgressBarStyle">
+        <item name="cpb_selectorIdle">@drawable/cpb_idle_state_selector_empty</item>
+        <item name="cpb_selectorComplete">@drawable/cpb_idle_state_selector_empty</item>
+        <item name="cpb_selectorError">@drawable/cpb_idle_state_selector_empty</item>
+        <item name="android:textColor">@drawable/selector_text_empty</item>
+    </style>
+
+    <style name="CircularProgressBarStyle.Full" parent="@style/CircularProgressBarStyle">
+        <item name="cpb_selectorIdle">@drawable/cpb_idle_state_selector_full</item>
+        <item name="cpb_selectorComplete">@drawable/cpb_idle_state_selector_full</item>
+        <item name="cpb_selectorError">@drawable/cpb_idle_state_selector_full</item>
+        <item name="android:textColor">@drawable/selector_text_full</item>
+    </style>
+
+    <style name="CircularProgressBarStyle.1" parent="@style/CircularProgressBarStyle.Empty">
+        <item name="cpb_iconComplete">@drawable/ok_green</item>
+        <item name="cpb_iconError">@drawable/cancel_red</item>
+    </style>
+
+    <style name="CircularProgressBarStyle.2" parent="@style/CircularProgressBarStyle.Full">
+        <item name="cpb_selectorComplete">@drawable/cpb_idle_state_selector_full_complete</item>
+        <item name="cpb_selectorError">@drawable/cpb_idle_state_selector_full_error</item>
+    </style>
+
+    <style name="CircularProgressBarStyle.3" parent="@style/CircularProgressBarStyle.Full">
+        <item name="cpb_iconComplete">@drawable/ok_white</item>
+        <item name="cpb_iconError">@drawable/cancel_white</item>
+    </style>
+
+    <style name="CircularProgressBarStyle.4" parent="@style/CircularProgressBarStyle.Empty">
+        <item name="cpb_iconComplete">@drawable/done_green</item>
+        <item name="cpb_iconError">@drawable/error_red</item>
+    </style>
+
+</resources>

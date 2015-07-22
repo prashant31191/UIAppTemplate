@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\classes-95ca8074b5cacff967257a04f9141e404963413b.jar" />
+    </item>
+    <item
+        jar="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\classes-a2417a8f26e15dd436496129319619a75fc8c790.jar" />
+    </item>
+    <item
+        jar="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-86fc277ca42c174688043378a00639d2748a5978.jar" />
+    </item>
+    <item
+        jar="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\libs\listviewanimations_lib-manipulation_3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="63737e512fcd9e0ebe9bcd0bb375c2dded74116f">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\listviewanimations_lib-manipulation_3.1.0-6820ed20c4ac5cb23272733f09f1ec145b215c3a.jar" />
+    </item>
+    <item
+        jar="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\libs\listviewanimations_lib-core-slh_3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a4fe703aabd23e8c287c90396514418119109dd1">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\listviewanimations_lib-core-slh_3.1.0-597265bb0deb74dfdb95efefd55638b21081a02e.jar" />
+    </item>
+    <item
+        jar="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\exploded-aar\UIAppTemplate\stickyListHeaders\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c8dd199a2ae97a96e27fb6a06910c7f5d5003f5f">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\classes-4a244511eba12a5def2e2f46bacb744522d1eb00.jar" />
+    </item>
+    <item
+        jar="C:\Users\jca.HCF\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-29c55ccba7dfcd8722fca8daec7464cec431adc2.jar" />
+    </item>
+    <item
+        jar="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-6348cec096736cd4bdeda48d0547a38777fec13b.jar" />
+    </item>
+    <item
+        jar="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-8498bcdf5d5ce9db22bc93b069f1608fe0165828.jar" />
+    </item>
+    <item
+        jar="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\libs\listviewanimations_lib-core_3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f3f9629b068554d8513a2aaf34418171bf430851">
+        <dex dex="C:\Dipan\Development\UIAppTemplate\uIAppTemplate\build\intermediates\pre-dexed\debug\listviewanimations_lib-core_3.1.0-b22a12e17a776bc5fb8ca44a36dd00e75f4075d7.jar" />
+    </item>
+
+</items>

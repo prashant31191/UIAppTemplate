@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/main_color_grey_100"
+    android:orientation="vertical" >
+
+    <com.csform.android.uiapptemplate.font.RobotoTextView
+        android:id="@+id/undo_button"
+        style="@style/TextViewAppearance.Caption1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:text="@string/undo_deletion"
+        android:textColor="@color/main_color_grey_600" />
+
+</LinearLayout>

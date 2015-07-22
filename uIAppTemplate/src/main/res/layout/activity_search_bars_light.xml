@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/main_color_grey_100"
+        android:gravity="center_vertical" >
+
+        <com.csform.android.uiapptemplate.font.FontelloTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/fontello_search"
+            android:textColor="@color/material_grey_600"
+            android:textSize="18dp"
+            tools:ignore="SpUsage" />
+
+        <EditText
+            android:id="@+id/search_field"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/edit_text_background_main"
+            android:inputType="text"
+            android:textColor="@color/main_color_grey_600"
+            android:textCursorDrawable="@drawable/edit_text_cursor_drawable_main" />
+
+        <com.csform.android.uiapptemplate.font.FontelloTextView
+            android:id="@+id/search_microfon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/fontello_microfon"
+            android:textColor="@color/material_grey_600"
+            android:textSize="18dp"
+            tools:ignore="SpUsage" />
+
+        <com.csform.android.uiapptemplate.font.FontelloTextView
+            android:id="@+id/search_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:text="@string/fontello_x_mark"
+            android:textColor="@color/material_grey_600"
+            android:textSize="18dp"
+            tools:ignore="SpUsage" />
+    </LinearLayout>
+
+    <include layout="@layout/list_view" />
+
+</LinearLayout>

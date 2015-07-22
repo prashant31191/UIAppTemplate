@@ -1,0 +1,24 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Button related styles -->
+    <style name="ButtonStyle" parent="@android:style/TextAppearance.Widget.Button">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">9dp</item>
+        <item name="typeface">robotoMedium</item>
+        <item name="android:clickable">true</item>
+    </style>
+    
+    <style name="ButtonStyle.RaisedEmpty" parent="@style/ButtonStyle">
+        <item name="android:background">@drawable/selector_background_empty</item>
+        <item name="android:textColor">@drawable/selector_text_empty</item>
+    </style>
+    
+    <style name="ButtonStyle.RaisedFull" parent="@style/ButtonStyle">
+        <item name="android:background">@drawable/selector_background_full</item>
+        <item name="android:textColor">@drawable/selector_text_full</item>
+    </style>
+    <!-- Button related styles end here -->
+
+</resources>

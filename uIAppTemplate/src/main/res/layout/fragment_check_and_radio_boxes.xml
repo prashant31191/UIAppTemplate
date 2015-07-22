@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.csform.android.uiapptemplate"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="56dp"
+            android:baselineAligned="false"
+            android:gravity="center" >
+
+            <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#fff"
+                app:rippleColor="@color/main_color_500_10_percent" >
+
+                <CheckBox
+                    style="@style/CheckBoxStyle.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+            <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/main_color_500"
+                app:rippleColor="@color/main_color_700" >
+
+                <CheckBox
+                    style="@style/CheckBoxStyle.Dark"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" />
+            </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+            <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/main_color_grey_800"
+                app:rippleColor="#33bdbcbc" >
+                <!-- Grey 400 with 20 percent transparency -->
+
+                <CheckBox
+                    style="@style/CheckBoxStyle.Light"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center" />
+            </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                app:rippleColor="@color/main_color_grey_400" >
+
+                <CheckBox
+                    style="@style/CheckBoxStyle.Light"
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:text="Mail notification" />
+            </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+            <com.csform.android.uiapptemplate.font.FontelloTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_background_empty"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="@string/fontello_heart_empty"
+                android:textSize="18dp"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                app:rippleColor="@color/main_color_grey_400" >
+
+                <CheckBox
+                    style="@style/CheckBoxStyle.Light"
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:text="SMS notification" />
+            </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+            <com.csform.android.uiapptemplate.font.FontelloTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_background_empty"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="@string/fontello_heart_empty"
+                android:textSize="18dp"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+            <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                app:rippleColor="@color/main_color_grey_400" >
+
+                <CheckBox
+                    style="@style/CheckBoxStyle.Light"
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:text="Hangout notification" />
+            </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+            <com.csform.android.uiapptemplate.font.FontelloTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_background_empty"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="@string/fontello_heart_empty"
+                android:textSize="18dp"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+
+        <View style="@style/DividerStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_color_grey_800"
+            android:gravity="center_vertical" >
+
+            <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                app:rippleColor="@color/main_color_grey_400" >
+
+                <CheckBox
+                    style="@style/CheckBoxStyle.Dark"
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:text="Mail notification" />
+            </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+            <com.csform.android.uiapptemplate.font.FontelloTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_background_empty"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="@string/fontello_heart_empty"
+                android:textSize="18dp"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_color_grey_800"
+            android:gravity="center_vertical" >
+
+            <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                app:rippleColor="@color/main_color_grey_400" >
+
+                <CheckBox
+                    style="@style/CheckBoxStyle.Dark"
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:text="SMS notification" />
+            </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+            <com.csform.android.uiapptemplate.font.FontelloTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_background_empty"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="@string/fontello_heart_empty"
+                android:textSize="18dp"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/main_color_grey_800"
+            android:gravity="center_vertical" >
+
+            <com.csform.android.uiapptemplate.view.MaterialRippleLayout
+                style="@style/RippleStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                app:rippleColor="@color/main_color_grey_400" >
+
+                <CheckBox
+                    style="@style/CheckBoxStyle.Dark"
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:text="Hangout notification" />
+            </com.csform.android.uiapptemplate.view.MaterialRippleLayout>
+
+            <com.csform.android.uiapptemplate.font.FontelloTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/selector_background_empty"
+                android:clickable="true"
+                android:padding="16dp"
+                android:text="@string/fontello_heart_empty"
+                android:textSize="18dp"
+                tools:ignore="SpUsage" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

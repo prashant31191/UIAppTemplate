@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.csform.android.uiapptemplate"
+    android:layout_width="match_parent"
+    android:layout_height="172dp" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background_small" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="16dp" />
+
+    <com.csform.android.uiapptemplate.font.RobotoTextView
+        android:id="@+id/email"
+        style="@style/TextViewAppearance.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="14dp"
+        android:paddingLeft="18dp"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        app:typeface="robotoBold" />
+
+</RelativeLayout>

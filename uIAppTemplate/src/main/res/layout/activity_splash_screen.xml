@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.csform.android.uiapptemplate.view.kbv.KenBurnsView
+        android:id="@+id/ken_burns_images"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- We use dps for font size: we don't want our logo
+    to become larger if user has set larger text in global
+    settings. -->
+
+    <com.csform.android.uiapptemplate.font.FontelloTextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0.0"
+        android:text="@string/fontello_logo"
+        android:textColor="@color/main_color_500"
+        android:textSize="64dp"
+        tools:ignore="SpUsage" />
+
+    <com.csform.android.uiapptemplate.font.RobotoTextView
+        android:id="@+id/welcome_text"
+        style="@style/TextViewAppearance.Headline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:alpha="0.0"
+        android:text="@string/welcome"
+        android:textColor="@color/main_color_500" />
+
+</RelativeLayout>

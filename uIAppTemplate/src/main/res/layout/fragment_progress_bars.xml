@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color_50" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="60dp" >
+
+            <com.csform.android.uiapptemplate.view.ProgressWheel
+                android:id="@+id/progress_bar_1"
+                style="@style/ProgressBarStyle.Main"
+                android:layout_marginRight="18dp" />
+
+            <com.csform.android.uiapptemplate.view.ProgressWheel
+                android:id="@+id/progress_bar_2"
+                style="@style/ProgressBarStyle.Reverse"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp" />
+
+            <com.csform.android.uiapptemplate.view.ProgressWheel
+                android:id="@+id/progress_bar_3"
+                style="@style/ProgressBarStyle.Accent"
+                android:layout_marginLeft="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="30dp" >
+
+            <com.csform.android.uiapptemplate.view.ProgressWheel
+                android:id="@+id/progress_bar_4"
+                style="@style/ProgressBarStyle.Main"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="18dp" />
+
+            <com.csform.android.uiapptemplate.view.ProgressWheel
+                android:id="@+id/progress_bar_5"
+                style="@style/ProgressBarStyle.Reverse"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp" />
+
+            <com.csform.android.uiapptemplate.view.ProgressWheel
+                android:id="@+id/progress_bar_6"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                style="@style/ProgressBarStyle.Accent"
+                android:layout_marginLeft="18dp" />
+        </LinearLayout>
+
+        <!-- <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp" >
+
+            <com.csform.android.uiapptemplate.view.ProgressWheel
+                android:id="@+id/progress_bar_4"
+                style="@style/ProgressBarStyle.Big"
+                android:layout_marginRight="28dp"
+                app:text="@string/fontello_upload" />
+
+            <com.csform.android.uiapptemplate.view.ProgressWheel
+                android:id="@+id/progress_bar_5"
+                style="@style/ProgressBarStyle.Big"
+                android:layout_marginLeft="28dp"
+                app:text="@string/fontello_play" />
+        </LinearLayout> -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="18dp"
+                android:orientation="vertical" >
+
+                <com.csform.android.uiapptemplate.view.cpb.CircularProgressButton
+                    android:id="@+id/circular_progress_bar_1"
+                    style="@style/CircularProgressBarStyle.1" />
+
+                <com.csform.android.uiapptemplate.view.cpb.CircularProgressButton
+                    android:id="@+id/circular_progress_bar_2"
+                    style="@style/CircularProgressBarStyle.1" />
+
+                <com.csform.android.uiapptemplate.view.cpb.CircularProgressButton
+                    android:id="@+id/circular_progress_bar_3"
+                    style="@style/CircularProgressBarStyle.2" />
+
+                <com.csform.android.uiapptemplate.view.cpb.CircularProgressButton
+                    android:id="@+id/circular_progress_bar_4"
+                    style="@style/CircularProgressBarStyle.2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="18dp"
+                android:orientation="vertical" >
+
+                <com.csform.android.uiapptemplate.view.cpb.CircularProgressButton
+                    android:id="@+id/circular_progress_bar_5"
+                    style="@style/CircularProgressBarStyle.3" />
+
+                <com.csform.android.uiapptemplate.view.cpb.CircularProgressButton
+                    android:id="@+id/circular_progress_bar_6"
+                    style="@style/CircularProgressBarStyle.3" />
+
+                <com.csform.android.uiapptemplate.view.cpb.CircularProgressButton
+                    android:id="@+id/circular_progress_bar_7"
+                    style="@style/CircularProgressBarStyle.4" />
+
+                <com.csform.android.uiapptemplate.view.cpb.CircularProgressButton
+                    android:id="@+id/circular_progress_bar_8"
+                    style="@style/CircularProgressBarStyle.4" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

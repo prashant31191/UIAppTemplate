@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/UIAppTemplate.iml" filepath="$PROJECT_DIR$/UIAppTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stickyListHeaders/stickyListHeaders.iml" filepath="$PROJECT_DIR$/stickyListHeaders/stickyListHeaders.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uIAppTemplate/uIAppTemplate.iml" filepath="$PROJECT_DIR$/uIAppTemplate/uIAppTemplate.iml" />
+    </modules>
+  </component>
+</project>
